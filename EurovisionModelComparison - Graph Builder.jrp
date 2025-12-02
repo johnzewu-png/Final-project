@@ -1,0 +1,11 @@
+﻿Local Here(
+	table1 = Open( "$DESKTOP/jmp/EurovisionModelComparison.jmp" );
+	table1 << Graph Builder(
+		Size( 621, 464 ),
+		Variables( X( :Number ), Y( :BIC ), Y( :Cp ), Y( :RMSE ), Y( :RSquare ) ),
+		Elements( Position( 1, 1 ), Points( X, Y, Legend( 75 ) ) ),
+		Elements( Position( 1, 2 ), Points( X, Y, Legend( 77 ) ) ),
+		Elements( Position( 1, 3 ), Points( X, Y, Legend( 79 ) ) ),
+		Elements( Position( 1, 4 ), Points( X, Y, Legend( 81 ) ) )
+	);
+)

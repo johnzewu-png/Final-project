@@ -1,0 +1,53 @@
+﻿Local Here(
+	table1 = Open( "$DESKTOP/jmp/EurovisionData.xlsx.jmp" );
+	table1 << Fit Model(
+		Y( :points_final ),
+		Effects(
+			:points_sf, :LyricsEnglish, :sadness, :joy, :love, :anger, :fear,
+			:"length(s)"n, :bpm, :danceability, :chords_scale
+		),
+		Center Polynomials( 0 ),
+		Personality( "Standard Least Squares" ),
+		Emphasis( "Effect Screening" ),
+		Run(
+			:points_final << {Summary of Fit( 1 ), Analysis of Variance( 1 ),
+			Parameter Estimates( 1 ), Lack of Fit( 0 ), Sorted Estimates( 0 ),
+			Plot Actual by Predicted( 1 ), Plot Regression( 0 ),
+			Plot Residual by Predicted( 1 ), Plot Studentized Residuals( 1 ),
+			Plot Effect Leverage( 0 ), Plot Residual by Normal Quantiles( 0 ),
+			Box Cox Y Transformation( 1 ), Profiler(
+				1,
+				Confidence Intervals( 1 ),
+				Prediction Intervals( 1 ),
+				Arrange in Rows( 6 ),
+				Term Value(
+					:points_sf( 167.59, Lock( 0 ), Show( 1 ) ),
+					:LyricsEnglish( "Other", Lock( 0 ), Show( 1 ) ),
+					:sadness( 0.25273, Lock( 0 ), Show( 1 ) ),
+					:joy( 0.40965, Lock( 0 ), Show( 1 ) ),
+					:love( 0.05836, Lock( 0 ), Show( 1 ) ),
+					:anger( 0.1693, Lock( 0 ), Show( 1 ) ),
+					:fear( 0.09181, Lock( 0 ), Show( 1 ) ),
+					:"length(s)"n( 184.53, Lock( 0 ), Show( 1 ) ),
+					:bpm( 118.006, Lock( 0 ), Show( 1 ) ),
+					:danceability( 1.10366, Lock( 0 ), Show( 1 ) ),
+					:chords_scale( "minor", Lock( 0 ), Show( 1 ) )
+				)
+			)}
+		),
+		SendToReport(
+			Dispatch( {}, "Actual by Predicted Plot", OutlineBox, {Close( 1 )} ),
+			Dispatch( {}, "Effect Summary", OutlineBox, {Close( 1 )} ),
+			Dispatch( {}, "Residual by Predicted Plot", OutlineBox, {Close( 1 )} ),
+			Dispatch( {}, "Parameter Estimates", OutlineBox, {Close( 0 )} ),
+			Dispatch( {"Prediction Profiler"}, "[.,.]", TextBox,
+				{Set Text( "[-3.73615,
+404.4657]" )}
+			),
+			Dispatch( {"Prediction Profiler"}, "[.,.]", Text Box( 2 ),
+				{Set Text( "[-3.73615,
+404.4657]" )}
+			)
+		)
+	);
+)

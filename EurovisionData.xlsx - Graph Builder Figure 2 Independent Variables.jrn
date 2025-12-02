@@ -1,0 +1,381 @@
+﻿/* JMP 18.2.2   01 */
+ListBox(vertical,near,sub(
+OwnerBox(helpKey("Graph Builder"),sub(
+OutlineBox(
+open(1),title("Graph Builder"),rerun(Graph Builder(Size(908, 495), Variables(X(:Name("length(s)")), X(:LyricsEnglish), X(:chords_scale), X(:danceability), X(:bpm), X(:points_sf), Y(:points_final)), Elements(Position(1, 1), Points(X, Y, Legend(29)), Line Of Fit(X, Y, Legend(47), Confidence of Fit(0))), Elements(Position(2, 1), Points(X, Y, Legend(31)), Line Of Fit(X, Y, Legend(48), Confidence of Fit(0))), Elements(Position(3, 1), Points(X, Y, Legend(32)), Line Of Fit(X, Y, Legend(49), Confidence of Fit(0))), Elements(Position(4, 1), Points(X, Y, Legend(33)), Line Of Fit(X, Y, Legend(50), Confidence of Fit(0))), Elements(Position(5, 1), Points(X, Y, Legend(63)), Line Of Fit(X, Y, Legend(64), Confidence of Fit(0))), Elements(Position(6, 1), Points(X, Y, Legend(55)), Line Of Fit(X, Y, Legend(56), Confidence of Fit(0))), SendToReport(Dispatch({}, "400", LegendBox, {Legend Position({29, [0], 47, [4], 31, [1], 48, [5], 32, [2], 49, [6], 33, [3], 50, [7], 63, [-3], 64, [9], 55, [-3], 56, [8]})})))),Context({Table("EurovisionData.xlsx")}),imageExportDisplay(2),indent(13),default font id(2),helpKey("Graph Builder"),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+BorderBox(bottom(4),sides(0),options(0),xmin(0),ymin(0),),
+PictureBox(sub(
+BorderBox(top(1),left(1),bottom(1),right(1),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(31000),length(24),baselength(24),sub(
+ScaleBox(id(41000),length(18),baselength(18),sub(
+ScaleBox(id(11000),length(136),baselength(136),sub(
+ScaleBox(id(32000),length(33),baselength(33),sub(
+ScaleBox(id(42000),length(18),baselength(18),sub(
+ScaleBox(id(12000),length(387),baselength(387),sub(
+ScaleBox(id(1000),axis(scaleType(0),scaleOrig(139.3493581419),scaleWidth(210.6506418581),widthMajor(50),
+nbin(8),nminor(1),timeCode(0),ndec(1),ndecimals(0),ndecSpec(99),FieldWidth(12),
+MinInitInt(139.3493581419),MaxInitInt(350),LinearInit,MajorInit(50),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("length(s)"),length(-1),baselength(-1),sub(
+ScaleBox(id(1001),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(2),widthMajor(1),
+nbin(2),nminor(0),timeCode(0),ndec(0),FieldWidth(9),
+MinInitInt(-0.5),MaxInitInt(1.5),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(labelRowTickList(default font id(7),rtitle("LyricsEnglish"),axisTick(type(1),style(1),label("English"),value(-0.5),width(1),),axisTick(type(1),style(1),label("Other"),value(0.5),width(1),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color("None"),Line Width(1),Lower Frame(0),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(0),Tick Mark Style("Long Mark"),Truncate format to interval(1),Wrap Lines(4),default font id(7),rtitle("LyricsEnglish"),axisTick(type(2),label("English"),value(-0.5),width(1),),axisTick(type(2),label("Other"),value(0.5),width(1),),),),),charid("LyricsEnglish"),length(-1),baselength(-1),sub(
+ScaleBox(id(1002),axis(scaleType(0),scaleOrig(-0.5),scaleWidth(2),widthMajor(1),
+nbin(2),nminor(0),timeCode(0),ndec(0),FieldWidth(9),
+MinInitInt(-0.5),MaxInitInt(1.5),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(labelRowTickList(default font id(7),rtitle("chords_scale"),axisTick(type(1),style(1),label("minor"),value(-0.5),width(1),),axisTick(type(1),style(1),label("major"),value(0.5),width(1),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color("None"),Line Width(1),Lower Frame(0),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(0),Tick Mark Style("Long Mark"),Truncate format to interval(1),Wrap Lines(4),default font id(7),rtitle("chords_scale"),axisTick(type(2),label("minor"),value(-0.5),width(1),),axisTick(type(2),label("major"),value(0.5),width(1),),),),),charid("chords_scale"),length(-1),baselength(-1),sub(
+ScaleBox(id(1003),axis(scaleType(0),scaleOrig(0.75956516363685),scaleWidth(1.14043483636315),widthMajor(0.2),
+nbin(11),nminor(1),timeCode(0),ndec(2),ndecimals(1),ndecSpec(99),FieldWidth(12),
+MinInitInt(0.75956516363685),MaxInitInt(1.9),LinearInit,MajorInit(0.2),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("danceability"),length(-1),baselength(-1),sub(
+ScaleBox(id(1004),axis(scaleType(0),scaleOrig(70),scaleWidth(110.43319915225),widthMajor(20),
+nbin(11),nminor(1),timeCode(0),ndec(1),ndecimals(0),ndecSpec(99),FieldWidth(12),
+MinInitInt(70),MaxInitInt(180.43319915225),LinearInit,MajorInit(20),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("bpm"),length(-1),baselength(-1),sub(
+ScaleBox(id(1005),axis(scaleType(0),scaleOrig(0),scaleWidth(435.391),widthMajor(100),
+nbin(8),nminor(1),timeCode(0),ndec(1),ndecimals(0),ndecSpec(99),FieldWidth(12),
+MinInitInt(0),MaxInitInt(435.391),LinearInit,MajorInit(100),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("points_sf"),length(-1),baselength(-1),sub(
+ScaleBox(id(2000),axis(scaleType(0),scaleOrig(-55.10552910683),scaleWidth(855.10552910683),widthMajor(200),
+nbin(8),nminor(1),timeCode(0),ndec(1),ndecimals(0),ndecSpec(99),FieldWidth(12),
+MinInitInt(-55.10552910683),MaxInitInt(800),LinearInit,MajorInit(200),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("points_final"),length(-1),baselength(-1),sub(
+ScaleBox(id(1500),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(1501),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(1502),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(1503),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(1504),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(1505),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(2500),axis(scaleType(0),scaleOrig(0),scaleWidth(0),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(0),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(-1),baselength(-1),sub(
+ScaleBox(id(400),length(-1),baselength(-1),nmodels(12),model(id(29),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-4354269)),fill color(2147483647),lineLabels(),),),baseID(47),baseItem(0),,),model(id(47),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-4354269), width(2)),fill color(2147483647),lineLabels(),),),,),model(id(31),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-13912408)),fill color(2147483647),lineLabels(),),),baseID(48),baseItem(0),,),model(id(48),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-13912408), width(2)),fill color(2147483647),lineLabels(),),),,),model(id(32),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-4042310)),fill color(2147483647),lineLabels(),),),baseID(49),baseItem(0),,),model(id(49),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-4042310), width(2)),fill color(2147483647),lineLabels(),),),,),model(id(33),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-10628061)),fill color(2147483647),lineLabels(),),),baseID(50),baseItem(0),,),model(id(50),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-10628061), width(2)),fill color(2147483647),lineLabels(),),),,),model(id(63),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-13400361)),fill color(2147483647),lineLabels(),),),baseID(64),baseItem(0),,),model(id(64),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-13400361), width(2)),fill color(2147483647),lineLabels(),),),,),model(id(55),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-2668175)),fill color(2147483647),lineLabels(),),),baseID(56),baseItem(0),,),model(id(56),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-2668175), width(2)),fill color(2147483647),lineLabels(),),),,),nmodels12(12),model12(id(29),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-4354269)),fill color(2147483647),lineLabels(),),),baseID(47),baseItem(0),,),model12(id(47),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-4354269), width(2)),fill color(2147483647),lineLabels(),),),,),model12(id(31),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-13912408)),fill color(2147483647),lineLabels(),),),baseID(48),baseItem(0),,),model12(id(48),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-13912408), width(2)),fill color(2147483647),lineLabels(),),),,),model12(id(32),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-4042310)),fill color(2147483647),lineLabels(),),),baseID(49),baseItem(0),,),model12(id(49),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-4042310), width(2)),fill color(2147483647),lineLabels(),),),,),model12(id(33),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-10628061)),fill color(2147483647),lineLabels(),),),baseID(50),baseItem(0),,),model12(id(50),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-10628061), width(2)),fill color(2147483647),lineLabels(),),),,),model12(id(63),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-13400361)),fill color(2147483647),lineLabels(),),),baseID(64),baseItem(0),,),model12(id(64),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-13400361), width(2)),fill color(2147483647),lineLabels(),),),,),model12(id(55),n(1),name(""),levels("points_final"),types(1),properties(properties(line(color(-2668175)),fill color(2147483647),lineLabels(),),),baseID(56),baseItem(0),,),model12(id(56),n(1),name(""),levels("points_final"),types(2),properties(properties(line(color(-2668175), width(2)),fill color(2147483647),lineLabels(),),),,),initproperties(properties(line(color(-4354269)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-4354269), width(2)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-13912408)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-13912408), width(2)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-4042310)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-4042310), width(2)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-10628061)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-10628061), width(2)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-13400361)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-13400361), width(2)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-2668175)),fill color(2147483647),lineLabels(),),),initproperties(properties(line(color(-2668175), width(2)),fill color(2147483647),lineLabels(),),),sub(
+ParallelScaleBox(axis(id(100000),wa(scaleType(0),scaleOrig(150),scaleWidth(200),widthMajor(50),
+nbin(8),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(150),MaxInitInt(350),LinearInit,MajorInit(50),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),)),axis(id(100001),wa(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(1),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(labelRowTickList(default font id(7),rtitle("LyricsEnglish"),axisTick(type(1),style(1),label("English"),value(-0.5),width(1),),axisTick(type(1),style(1),label("Other"),value(0.5),width(1),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color("None"),Line Width(1),Lower Frame(0),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(0),Tick Mark Style("Long Mark"),Truncate format to interval(1),Wrap Lines(4),default font id(7),rtitle("LyricsEnglish"),axisTick(type(2),label("English"),value(-0.5),width(1),),axisTick(type(2),label("Other"),value(0.5),width(1),),),),)),axis(id(100002),wa(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(1),
+nbin(1),nminor(0),timeCode(0),ndec(0),FieldWidth(0),
+MinInitInt(0),MaxInitInt(1),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(1),labelRows(labelRowTickList(default font id(7),rtitle("chords_scale"),axisTick(type(1),style(1),label("minor"),value(-0.5),width(1),),axisTick(type(1),style(1),label("major"),value(0.5),width(1),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(1),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color("None"),Line Width(1),Lower Frame(0),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(0),Tick Mark Style("Long Mark"),Truncate format to interval(1),Wrap Lines(4),default font id(7),rtitle("chords_scale"),axisTick(type(2),label("minor"),value(-0.5),width(1),),axisTick(type(2),label("major"),value(0.5),width(1),),),),)),axis(id(100003),wa(scaleType(0),scaleOrig(0),scaleWidth(800),widthMajor(100),
+nbin(8),nminor(0),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(800),LinearInit,MajorInit(100),MinorInit(0),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),)),axis(id(100004),wa(scaleType(0),scaleOrig(0.8),scaleWidth(1.1),widthMajor(0.2),
+nbin(11),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0.8),MaxInitInt(1.9),LinearInit,MajorInit(0.2),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),)),axis(id(100005),wa(scaleType(0),scaleOrig(0),scaleWidth(450),widthMajor(100),
+nbin(9),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(450),LinearInit,MajorInit(100),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),)),axis(id(100006),wa(scaleType(0),scaleOrig(70),scaleWidth(110),widthMajor(20),
+nbin(11),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(70),MaxInitInt(180),LinearInit,MajorInit(20),MinorInit(1),NObsInit(180),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color("None"),Line Width(1),Major Grid Line Color({215, 215, 215}),Minimum Depth(0),Minimum Font Size(7),Minor Grid Line Color({240, 240, 240}),Row Title Side("None"),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),)),sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+TextEditBox("points_final vs. length(s) & 5 more",default font id(12),nameid("graph title/points_final vs. length(s) & 5 more"),wrapWidth(908),justification(1),minSize(239,20),maxSize(239,20),BaseSize(0,0),sizeID(11000,0,6,1,56,0),Horizontal Alignment("Center"),User Resizable({0, 0}),),
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+ListBox(vertical,near,sub(
+CenterBox(vert,sizeID(42000,12000),boxcentering(0,1),sub(
+TextEditBox("points_final",default font id(9),nameid("Y title/points_final"),wrapWidth(387),justification(1),left,minSize(16,60),maxSize(16,60),BaseSize(0,0),Horizontal Alignment("Right"),User Resizable({0, 0}),Vertical Alignment("Center"),))))),
+ListBox(vertical,near,sub(
+AxisBox(side(R),size(33,387),locked(false),scales(32000,12000,0,2000),))),
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+FrameBox(size(136,387),border(12295),flags(0),markerSize(-1),right scales(11000,12000,1000,2500),scales(11000,12000,1000,2000),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(description("Marker"),legend server ID(400),legend model ID(29),legend model item(0),properties(color(-4354269)),n(138),nv(1),MarkerItem(
+x(166.1155548,185.5274353,179.7224426,163.1898346,185.2952423,172.6171417,205.6359253,180.7905731,174.6604919,180.3261719
+,182.2766418,178.4221344,178.1434937,179.7688904,185.0166016,179.6760101,180.0010834,180.4190521,180.4654846,179.7224426
+,186.5026703,183.2983246,182.7874756,158.8244934,184.8772736,186.038269,183.9484863,184.7379608,190.589386,176.1465759
+,179.4902496,180.1404114,170.8524323,190.3107452,212.4625854,197.4624939,184.7379608,207.0291138,191.2395477,188.4531555
+,183.9020386,180.6048126,181.0692139,176.1465759,186.177597,173.824585,203.5461273,180.8834534,179.6295624,180.1404114
+,181.1156464,183.9484863,178.7007751,180.1404114,194.2117004,187.2457123,179.0258484,182.3695221,177.9577332,185.806076
+,186.6419983,166.2084351,174.0103455,186.920639,176.7967377,193.6079865,177.4468994,179.5366821,188.6853485,175.4499817
+,178.1434937,183.5305176,175.8215027,186.2704773,179.5366821,171.6419067,176.6109772,162.7718811,174.0103455,171.3168182
+,192.6327362,199.5987244,179.7224426,332.0453491,175.1713409,181.3478394,172.1991882,176.7038574,179.8617706,182.6946106
+,180.1404114,178.4221344,177.3540192,164.0722046,184.2735596,173.1744232,195.2333832,217.9889374,176.3323364,180.8370056
+,183.5769653,189.0568695,231.6887054,172.6635895,180.0939636,200.2953339,183.7162781,210.9765015,182.7874756,187.895874
+,155.0164185,227.8806305,159.5210876,180.2332916,157.3848572,172.9886627,179.6760101,213.2056274,174.2425385,173.685257
+,217.1065826,179.5831299,186.2704773,234.8001862,158.7780457,178.7007751,218.2675781,192.5398712,161.2393646,185.1094818
+,184.6450806,190.960907,183.5305176,178.0506134,192.8649445,174.6604919,207.6792755,184.4593201),
+y(758,615,374,363,344,282,200,173,158,150
+,128,120,93,83,79,77,77,68,64,39
+,529,436,342,281,274,245,226,209,184,181
+,166,144,136,130,121,113,99,93,64,46
+,498,370,364,334,331,305,302,284,232,157
+,120,109,107,105,90,89,77,76,74,31
+,432,378,364,301,255,220,204,170,170,153
+,115,109,102,94,93,75,74,65,57,50
+,631,438,312,253,215,207,182,171,151,141
+,128,125,106,78,65,64,61,38,38,20
+,583,526,362,268,182,168,151,129,127,126
+,123,122,120,96,93,92,78,76,59,30
+,547,453,375,278,183,152,126,103,90,78
+,64,54,38,37,34,27,24,16),),),LineSeg(description("Line of Fit"),legend server ID(400),legend model ID(47),legend model item(0),properties(color(-4354269), width(2)),n(2),x(146.16497197,340.89679563),y(162.532763744882,272.312298928615),log curve(true),selectable(true),selectionMode(0),domainDim(0),)),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fill(true),fillColor(-14540253),sizeID(0,12000),xstretch("Off"),ystretch("Off"),),
+FrameBox(size(136,387),border(12293),flags(0),markerSize(-1),right scales(11000,12000,1001,2500),scales(11000,12000,1001,2000),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(description("Marker"),legend server ID(400),legend model ID(31),legend model item(0),properties(color(-13912408)),n(138),nv(1),MarkerItem(
+x(1,0,0,0,0,0,1,0,0,0
+,1,0,0,1,0,0,0,0,0,0
+,0,0,0,0,0,1,0,0,1,0
+,0,0,0,0,0,1,0,1,1,0
+,0,0,0,0,0,0,0,0,1,0
+,1,0,0,1,1,1,0,0,0,0
+,1,0,1,0,0,0,1,0,0,0
+,0,0,1,0,1,0,0,1,1,0
+,1,0,1,1,0,1,0,1,0,0
+,1,0,0,0,1,0,0,0,0,1
+,0,1,1,0,0,0,0,1,1,0
+,1,1,0,1,0,0,1,1,1,1
+,0,1,1,0,1,1,1,1,1,0
+,0,1,0,1,0,1,0,1),
+y(758,615,374,363,344,282,200,173,158,150
+,128,120,93,83,79,77,77,68,64,39
+,529,436,342,281,274,245,226,209,184,181
+,166,144,136,130,121,113,99,93,64,46
+,498,370,364,334,331,305,302,284,232,157
+,120,109,107,105,90,89,77,76,74,31
+,432,378,364,301,255,220,204,170,170,153
+,115,109,102,94,93,75,74,65,57,50
+,631,438,312,253,215,207,182,171,151,141
+,128,125,106,78,65,64,61,38,38,20
+,583,526,362,268,182,168,151,129,127,126
+,123,122,120,96,93,92,78,76,59,30
+,547,453,375,278,183,152,126,103,90,78
+,64,54,38,37,34,27,24,16),),jitter("Centered Grid"),jitterDim("X"),jitterSeed(3703188717),jitterLimit(1),jitterSpacing(0),),LinesSeg(description("Line of Fit"),legend server ID(400),legend model ID(48),legend model item(0),properties(color(-13912408), width(2)),n(2),xFrom(-0.2,0.8),xTo(0.2,1.2),yFrom(189.218390804598,175.529411764706),yTo(189.218390804598,175.529411764706),)),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fill(true),fillColor(-14540253),sizeID(0,12000),xstretch("Off"),ystretch("Off"),),
+FrameBox(size(136,387),border(12293),flags(0),markerSize(-1),right scales(11000,12000,1002,2500),scales(11000,12000,1002,2000),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(description("Marker"),legend server ID(400),legend model ID(32),legend model item(0),properties(color(-4042310)),n(138),nv(1),MarkerItem(
+x(1,0,0,0,1,1,0,0,0,1
+,1,0,1,1,0,0,0,0,0,0
+,0,0,0,1,0,0,0,1,1,1
+,0,0,1,0,0,0,1,0,1,0
+,0,0,0,1,0,1,0,1,0,0
+,1,0,0,0,0,0,0,1,1,0
+,0,0,0,1,0,0,0,0,1,1
+,0,0,0,1,0,0,0,1,0,0
+,0,1,0,1,1,0,1,0,1,0
+,0,0,0,1,0,0,1,0,0,0
+,0,1,0,0,0,0,1,0,1,0
+,1,0,0,0,0,0,0,0,0,0
+,1,0,0,1,1,0,0,0,0,0
+,0,0,0,1,0,0,0,0),
+y(758,615,374,363,344,282,200,173,158,150
+,128,120,93,83,79,77,77,68,64,39
+,529,436,342,281,274,245,226,209,184,181
+,166,144,136,130,121,113,99,93,64,46
+,498,370,364,334,331,305,302,284,232,157
+,120,109,107,105,90,89,77,76,74,31
+,432,378,364,301,255,220,204,170,170,153
+,115,109,102,94,93,75,74,65,57,50
+,631,438,312,253,215,207,182,171,151,141
+,128,125,106,78,65,64,61,38,38,20
+,583,526,362,268,182,168,151,129,127,126
+,123,122,120,96,93,92,78,76,59,30
+,547,453,375,278,183,152,126,103,90,78
+,64,54,38,37,34,27,24,16),),jitter("Centered Grid"),jitterDim("X"),jitterSeed(3804611529),jitterLimit(1),jitterSpacing(0),),LinesSeg(description("Line of Fit"),legend server ID(400),legend model ID(49),legend model item(0),properties(color(-4042310), width(2)),n(2),xFrom(-0.2,0.8),xTo(0.2,1.2),yFrom(174.448979591837,207.95),yTo(174.448979591837,207.95),)),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fill(true),fillColor(-14540253),sizeID(0,12000),xstretch("Off"),ystretch("Off"),),
+FrameBox(size(136,387),border(12293),flags(0),markerSize(-1),right scales(11000,12000,1003,2500),scales(11000,12000,1003,2000),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(description("Marker"),legend server ID(400),legend model ID(33),legend model item(0),properties(color(-10628061)),n(138),nv(1),MarkerItem(
+x(0.9167211056,0.9026563168,1.422514558,0.9027733803,1.064127088,1.213578224,1.066152096,0.9976921082,1.041341066,1.040330768
+,0.9778726101,1.154930234,0.9885507226,1.291520596,0.9966112971,1.07867384,1.074240565,1.115388989,0.9733816385,1.045284748
+,1.223249793,1.016087532,1.012743354,1.404075027,1.044543028,0.9366163015,1.055741787,1.199571371,1.021338224,0.8958132267
+,1.188131332,1.213182092,1.125925183,1.107129693,1.301278353,1.169093966,1.431343317,1.028505802,1.115463614,1.153897762
+,0.8617203236,0.9333216548,1.130179048,1.011701822,1.098184943,0.9569388032,1.2587924,1.068897605,1.194321036,1.137894154
+,1.108020544,1.081105471,1.172702074,1.345196843,1.066328526,0.9458406568,1.355026484,1.014176607,0.9726685882,1.136104107
+,0.90387851,1.233187914,1.18530798,1.017691374,1.250804424,1.343457222,1.355553627,1.156926513,0.9864040613,0.9382318258
+,1.160475612,1.066879869,1.177772522,1.014044881,1.166283965,0.9600892663,1.18426013,1.099232078,1.007968187,1.50337851
+,1.243524075,1.052855849,1.219777584,1.089728951,0.9241768122,1.017329931,1.266144753,0.9390177727,1.046895981,1.138505936
+,1.810040236,0.8991653919,0.8668566346,0.9998290539,1.295696974,1.096399307,1.097813725,0.9724133015,1.301701903,1.092643142
+,1.066840291,1.16899991,1.200772643,1.116159558,1.338709116,0.9653930068,1.034897089,1.1793046,0.9815432429,0.9477043748
+,1.088965774,1.172849536,1.313890576,1.100467563,1.170615792,0.9032686353,1.204584241,1.193924308,1.254098058,1.1309762
+,1.064422369,1.19013989,1.067930579,0.8886044025,0.975489378,1.071429133,1.095261216,1.212078691,1.217377067,1.168865681
+,0.9247381091,0.8449735641,0.9881360531,1.160556078,1.08654213,0.8914982677,1.142537117,0.9403729439),
+y(758,615,374,363,344,282,200,173,158,150
+,128,120,93,83,79,77,77,68,64,39
+,529,436,342,281,274,245,226,209,184,181
+,166,144,136,130,121,113,99,93,64,46
+,498,370,364,334,331,305,302,284,232,157
+,120,109,107,105,90,89,77,76,74,31
+,432,378,364,301,255,220,204,170,170,153
+,115,109,102,94,93,75,74,65,57,50
+,631,438,312,253,215,207,182,171,151,141
+,128,125,106,78,65,64,61,38,38,20
+,583,526,362,268,182,168,151,129,127,126
+,123,122,120,96,93,92,78,76,59,30
+,547,453,375,278,183,152,126,103,90,78
+,64,54,38,37,34,27,24,16),),),LineSeg(description("Line of Fit"),legend server ID(400),legend model ID(50),legend model item(0),properties(color(-10628061), width(2)),n(2),x(0.796720230505,1.858293569595),y(206.446488897941,129.363920998385),log curve(true),selectable(true),selectionMode(0),domainDim(0),)),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fill(true),fillColor(-14540253),sizeID(0,12000),xstretch("Off"),ystretch("Off"),),
+FrameBox(size(136,387),border(12293),flags(0),markerSize(-1),right scales(11000,12000,1004,2500),scales(11000,12000,1004,2000),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(description("Marker"),legend server ID(400),legend model ID(63),legend model item(0),properties(color(-13400361)),n(138),nv(1),MarkerItem(
+x(91.9148407,125.7338562,109.9784012,134.5702209,109.0206451,86.91967773,108.1200943,155.6806488,103.8478394,95.89978027
+,137.478653,90.02171326,90.01746368,154.6407471,89.98403931,127.9511871,91.09554291,150.1478119,119.9619827,124.9342575
+,129.809433,100.8509598,84.94984436,105.9668503,108.9173584,96.79369354,163.9187469,121.9924393,126.7731934,89.97199249
+,87.97888947,103.9352493,93.86327362,140.0864868,86.92367554,124.9953232,113.9738159,163.9133453,139.9390411,121.9329147
+,142.9460449,122.9985657,96.78816986,105.0403137,122.1553574,91.6944046,100.8918533,132.028717,109.971344,105.8127975
+,136.0339966,100.1429749,97.72219849,108.0244446,115.006691,161.7455902,117.9584198,127.8459396,87.93044281,104.7789993
+,123.4597244,122.8535156,115.1523972,97.90435791,111.772377,115.0182877,101.9188004,98.00232697,92.49930573,137.2188873
+,119.9962311,89.89985657,104.7453537,113.9323349,106.9353714,92.95464325,79.9755249,99.72939301,150.1075134,103.9988632
+,104.9916534,97.00002289,135.9797516,141.935257,149.3511047,110.3093719,123.8753967,89.87069702,139.8275604,122.9744034
+,93.00730896,128.024353,129.5106812,120.0613632,120.085762,143.7060089,172.2655334,115.7307892,126.0032349,99.97698212
+,150.2548065,154.7801514,130.2980194,126.0615921,126.5438461,139.7113647,122.0305328,149.9331665,97.84026337,129.6360321
+,135.115097,102.8440247,146.0623627,125.0098724,98.81867218,137.1317902,131.9555359,109.7736664,144.7566223,102.9024429
+,128.058136,114.0326614,87.00585938,129.9625702,133.280304,101.349556,101.7772675,95.05059814,139.9718475,99.56855011
+,147.7018585,84.1605072,161.6900177,144.9129028,114.5552444,134.992691,139.9089355,129.8996887),
+y(758,615,374,363,344,282,200,173,158,150
+,128,120,93,83,79,77,77,68,64,39
+,529,436,342,281,274,245,226,209,184,181
+,166,144,136,130,121,113,99,93,64,46
+,498,370,364,334,331,305,302,284,232,157
+,120,109,107,105,90,89,77,76,74,31
+,432,378,364,301,255,220,204,170,170,153
+,115,109,102,94,93,75,74,65,57,50
+,631,438,312,253,215,207,182,171,151,141
+,128,125,106,78,65,64,61,38,38,20
+,583,526,362,268,182,168,151,129,127,126
+,123,122,120,96,93,92,78,76,59,30
+,547,453,375,278,183,152,126,103,90,78
+,64,54,38,37,34,27,24,16),),),LineSeg(description("Line of Fit"),legend server ID(400),legend model ID(64),legend model item(0),properties(color(-13400361), width(2)),n(2),x(75.361024475,176.880033825),y(199.755033215447,162.628687567061),log curve(true),selectable(true),selectionMode(0),domainDim(0),)),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fill(true),fillColor(-14540253),sizeID(0,12000),xstretch("Off"),ystretch("Off"),),
+FrameBox(size(136,387),border(12301),flags(0),markerSize(-1),right scales(11000,12000,1005,2500),scales(11000,12000,1005,2000),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(description("Marker"),legend server ID(400),legend model ID(55),legend model item(0),properties(color(-2668175)),n(138),nv(1),MarkerItem(
+x(370,403,291,165,227,174,231,160,189,200
+,141,150,147,110,152,115,101,164,119,207
+,283,262,231,232,254,201,204,235,162,119
+,177,266,179,179,174,117,212,111,132,108
+,280,217,232,238,210,239,224,261,221,242
+,94,149,157,167,96,156,150,198,185,122
+,291,288,267,234,325,203,225,184,250,239
+,179,142,124,170,192,115,117,138,112,118
+,337,396,237,154,211,208,177,221,198,209
+,159,243,96,118,118,151,187,162,227,103
+,135,177,127,102,90,74,149,110,110,94
+,76,99,137,109,124,97,103,83,74,37
+,177,173,194,124,137,58,86,117,119,67
+,72,47,59,79,54,51,46,43),
+y(758,615,374,363,344,282,200,173,158,150
+,128,120,93,83,79,77,77,68,64,39
+,529,436,342,281,274,245,226,209,184,181
+,166,144,136,130,121,113,99,93,64,46
+,498,370,364,334,331,305,302,284,232,157
+,120,109,107,105,90,89,77,76,74,31
+,432,378,364,301,255,220,204,170,170,153
+,115,109,102,94,93,75,74,65,57,50
+,631,438,312,253,215,207,182,171,151,141
+,128,125,106,78,65,64,61,38,38,20
+,583,526,362,268,182,168,151,129,127,126
+,123,122,120,96,93,92,78,76,59,30
+,547,453,375,278,183,152,126,103,90,78
+,64,54,38,37,34,27,24,16),),),LineSeg(description("Line of Fit"),legend server ID(400),legend model ID(56),legend model item(0),properties(color(-2668175), width(2)),n(2),x(18.7,421.3),y(-21.7052438031041,534.966177925661),log curve(true),selectable(true),selectionMode(0),domainDim(0),)),))))))),
+ListBox(horizontal,near,sub(
+ListBox(horizontal,near,sub(
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(42000,0),xstretch("Off"),ystretch("Off"),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(32000,0),xstretch("Off"),ystretch("Off"),))),
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+AxisBox(side(T),size(136,24),locked(false),scales(11000,31000,1000,0),endLabelSlop(-8),sequencePositionNSME(1),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,31000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+AxisBox(side(T),size(136,24),locked(false),scales(11000,31000,1001,0),startLabelSlop(4),endLabelSlop(-8),sequencePositionNSME(2),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,31000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+AxisBox(side(T),size(136,24),locked(false),scales(11000,31000,1002,0),startLabelSlop(4),endLabelSlop(-8),sequencePositionNSME(2),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,31000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+AxisBox(side(T),size(136,24),locked(false),scales(11000,31000,1003,0),startLabelSlop(4),endLabelSlop(-8),sequencePositionNSME(2),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,31000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+AxisBox(side(T),size(136,24),locked(false),scales(11000,31000,1004,0),startLabelSlop(4),endLabelSlop(-8),sequencePositionNSME(2),),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,31000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+AxisBox(side(T),size(136,24),locked(false),scales(11000,31000,1005,0),startLabelSlop(4),sequencePositionNSME(3),))),
+ListBox(horizontal,near,sub(
+CenterBox(horiz,sizeID(11000,41000),boxcentering(1,0),sub(
+TextEditBox("length(s)",default font id(9),nameid("X title/length(s)"),wrapWidth(136),justification(1),minSize(48,16),maxSize(48,16),BaseSize(0,0),Horizontal Alignment("Center"),User Resizable({0, 0}),))),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,41000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+CenterBox(horiz,sizeID(11000,41000),boxcentering(1,0),sub(
+TextEditBox("LyricsEnglish",default font id(9),nameid("X 1 title/LyricsEnglish"),wrapWidth(136),justification(1),minSize(68,16),maxSize(68,16),BaseSize(0,0),Horizontal Alignment("Center"),User Resizable({0, 0}),))),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,41000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+CenterBox(horiz,sizeID(11000,41000),boxcentering(1,0),sub(
+TextEditBox("chords_scale",default font id(9),nameid("X 2 title/chords_scale"),wrapWidth(136),justification(1),minSize(68,16),maxSize(68,16),BaseSize(0,0),Horizontal Alignment("Center"),User Resizable({0, 0}),))),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,41000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+CenterBox(horiz,sizeID(11000,41000),boxcentering(1,0),sub(
+TextEditBox("danceability",default font id(9),nameid("X 3 title/danceability"),wrapWidth(136),justification(1),minSize(65,16),maxSize(65,16),BaseSize(0,0),Horizontal Alignment("Center"),User Resizable({0, 0}),))),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,41000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+CenterBox(horiz,sizeID(11000,41000),boxcentering(1,0),sub(
+TextEditBox("bpm",default font id(9),nameid("X 4 title/bpm"),wrapWidth(136),justification(1),minSize(26,16),maxSize(26,16),BaseSize(0,0),Horizontal Alignment("Center"),User Resizable({0, 0}),))),
+SpacerBox(size(1,1),minSize(1,1),maxSize(1,1),BaseSize(1,1),fillColor(2147483647),sizeID(11000,41000,0,1,1,0),xstretch("Off"),ystretch("Off"),),
+CenterBox(horiz,sizeID(11000,41000),boxcentering(1,0),sub(
+TextEditBox("points_sf",default font id(9),nameid("X 5 title/points_sf"),wrapWidth(136),justification(1),minSize(48,16),maxSize(48,16),BaseSize(0,0),Horizontal Alignment("Center"),User Resizable({0, 0}),))))))))))))),
+SpacerBox(size(4,1),minSize(4,1),maxSize(4,1),BaseSize(4,1),fillColor(2147483647),xstretch("Off"),ystretch("Off"),),
+LegendBox(size(-107,-154),Flags(2),vertical(true),title vertical(true),max levels(60),legendid(400),N Legends(12),Legend item(type(1),properties(line(color(-4354269)),fill color(2147483647),lineLabels(),),label("points_final"),),Legend item(type(2),properties(line(color(-4354269), width(2)),fill color(2147483647),lineLabels(),),position(4),label("points_final"),),Legend item(type(1),properties(line(color(-13912408)),fill color(2147483647),lineLabels(),),position(1),label("points_final"),),Legend item(type(2),properties(line(color(-13912408), width(2)),fill color(2147483647),lineLabels(),),position(5),label("points_final"),),Legend item(type(1),properties(line(color(-4042310)),fill color(2147483647),lineLabels(),),position(2),label("points_final"),),Legend item(type(2),properties(line(color(-4042310), width(2)),fill color(2147483647),lineLabels(),),position(6),label("points_final"),),Legend item(type(1),properties(line(color(-10628061)),fill color(2147483647),lineLabels(),),position(3),label("points_final"),),Legend item(type(2),properties(line(color(-10628061), width(2)),fill color(2147483647),lineLabels(),),label("points_final"),),Legend item(type(1),properties(line(color(-13400361)),fill color(2147483647),lineLabels(),),position(-3),label("points_final"),),Legend item(type(2),properties(line(color(-13400361), width(2)),fill color(2147483647),lineLabels(),),label("points_final"),),Legend item(type(1),properties(line(color(-2668175)),fill color(2147483647),lineLabels(),),position(-3),label("points_final"),),Legend item(type(2),properties(line(color(-2668175), width(2)),fill color(2147483647),lineLabels(),),position(8),label("points_final"),),))))))))))))))))))))))))))))))))))))))))))))))))))),
+TextBox("Where(42 rows excluded)",wrapWidth(1019),minSize(1019,16),maxSize(1019,16),BaseSize(25,0),xstretch("Fill"),)))))))))))
+/* preview image PNG (v=1,x=300,y=300,b=12326,c=96,d=126,e=42,f=92,g=59,h=34,i=39,j=47,k=44,m=960E0BBF87A6037113BAAE0DE5926FC0)
+=v}uA%:{<d&52G3ALL(OtqX9noe=HZ!!!840E^B|!!!!2=wLI4kK=3<!!-=)<#fB$!!$Abz!YXr!!!67>>vs>!!&+I!!#Ad>NI0W!@]=8>d<][Mb<{{E4CuYXN=g?yNdO$rRL]}s8ju.idKb$d7){vA06n@r^]eKr|iO-nNJ{V=^cQlS<]y8lLf8CA>RuC6J1Lb(=E<aF-jNTQMnfW1[!UG_c{MCp@?.(x^zBvJZ(u7x[ijgaHt@zptbDLpVwmJ_r}sBxyLxVn<b$YQva:NhdKKg5wZZbH#_ST+z@DndEl-hWHuwPrld:xCv[vBZ8:B#
+&L{#buA<eW!!!0i-uJa]F$qzTpRMY7X-dP-!YG_.#L%RCuGA]S!!&5PJYcF^Pqld.N7uxkFqS_H$FTYM(h4%BccD-%!!6f{e..DT$rvQJsV|[0T1NNV.P2Fm={a3>o6--0!!kvtts4.-1O^}bZK$$L5|XX9LxXQ9.[!P)HwNzM!%2aWa_i!DTvX|fP1nofhxCAwnNcptMM#x@]J:ck!2Ya>g(ggD9-)_s!!#%s-uJpaF$qzTpRMY7X-dP-!YG_.#L%RCuGA]S!!&5PJYcF^Pqld.N7uxkFqS_H$FTYMispUPuov(>Iy!]Dc[TN95>K.l
+tbZ}-71H[b!!#%sF3VitIr-C:uI(7<paNzcn%ckDOWzZ3cjDaBKYD7De8jEJ7abS5#J]7ewJmsW.t<}<u9N%GMP>NGJ<pt#X2_)]H20.:d$vK<jcaXC#5j=sGLJjhHBISG(%Nz-8Ks-+uV558E^ricjcb.g$FT[+ispUP1&Q=nU:AV#_=<c0zRhkqX-^m.VTABLe8]@5eG?B1YvL{L{$peY]BX[RaCh1nN@ujFli|vwUpDZU_u@AqutYpmxd_wj&R8.<&auKOxke9jN?K>s&6Tj)qYqit^X[8ZU|vlRlutv|-NjaKVDB>HI7(ty@PKBX
+o#K?!7hKYNsTI}w:qguzA}n4I!!#.3$I475or24UU^IdYzY9xDp=dJZ9%eh9!!(h.8t}RKM|%QEul>uJf@4$dTr(7vg&^gYm1ZOa59C-xt09U&c{^S^p=iEWfae=t@=b|t!!$+hQCv.aNt<yAmhzXgZYyV|w#Lp}tb]z+@AOl<!%2aCx4Fuq$r:U6ts-@&YTu4Z#JT7kLxU_$@=yXmPq+4u8{>BR2]{lIg(E_z.P1a<VMmNeF$boO&h(o]>fugEa__|h$FTJA1rMF5nN_(G#5j7_(x95Yts2-d!YGZB${.Y@LxWUq!@6@a#P&l_8{?>K
+!2Y_CPsp{CY[ze8!)@Bag)h&b&HMy+juy:]g}23+LIQFn!}Ii9!!HMrts9LFF&0_(L5CI#0.]mrpr?{F<<B@|!@6Gs#P&l_6x6VDNGxv@JOg<_NJ:tIaaQZhLZAIJdad_.Kf.{cnNu:8ve+KJ8]<jL!!!SLWh{)7OCs4Yp+BvtAnR0XSBnaysmsz^!%2b9F%FSp$.uLlamS%&8YacCgD8Sn6aJEi6^7hH!)@Bkg)h&b%.5S%F&X_Nt7[mp1D<b=a_Oi3LZAIJ(b0p1nNVM+8m377$p(JWts-@&YTu4Z#JT7kLxU_$@=yXmPq+4u8{>BR
+2]{lIg(E_z.P1a<VMmNeF$boO&h(o]>fugEa__|h$FTJA1rMF5nN_(G#5j7_(x95Yts2-d!YGZB${.Y@LxWUq!@6@a#P&l_8{?>K!2Y_CPsp{CY[ze8!)@Bag)h&b@AOqZ!%2aCF%FSp]lVQA!#Woaaa!CKm%-B3!!kvonNngft3F9X!!HMvts9LFLX5[?!!6fzx)Kl68l+m^!!-E|NTeu-YTE{o!!&5Pev5#V@=b|v!!$+hEMY!k2]pPz!!#%s0$]TMrtuHJ8{?g_]jlEvjRn!w=2^DQ!!!1.]BmpA1)B4hP1n^(lm8}3(Ta+F:WInT
+HuZ}X$jC%cZK#|>6ymQ?#GaSD@eRP^-OI<2Po_C5]}WnBTG#d)g&^gYm1ZOa=cRDTF$BF@t7[mp1D<b=a_Oi3LZAIJ(b0p1nNVM+8m377$p(JWts-@&YTu4Z#JT7kLxU_$@=yXmPq+4u8{>BR2]{lIg(E_z.P1a<VMmNeF$boO&h(o]>fugEa__|h$FTJA1rMF5nN_(G#5j7_(x95Yts2-d!YGZB${.Y@LxWUq!@6@a#P&l_8{?>K!2Y_CPsp{CY[ze8!)@Bag)h&b@AOqZ!%2aCF%FSp]lVQA!#Woaaa!CKm%-B3!!kvonNngft3F9X
+!!HMvts9LFLX5[?!!6fzx)Kl68l+m^!!-E|NTeu-YTE{o!!&5Pev5#Vx+#jus|FkjlXWoGD!JHAir:wv!!kvmnNngfF2k?=qS$ANw1N=-BgvR?#Mhbe@eRP^X[8n_y#s>&CPpFAVN=Mz!#WoSaa!CKg8g%khyrWwU)(@RF$-sSt7[mplvGCCuC4U5HgFm18[z4s!@6?u#P&l_.OALNN$c?bG@-!GE@irw!!$+hEMY!kY[yqS!2YbzPsp{C$Hgt@Gy{[n:!Q3}8YacDjus:V6LJ!du4%wM>+&xGI#T%2l^jY:By#n>!!!:d59?YEzsa3#
+@#-7xqO4wpe@TTp$FC{9^[Xm&cvN99eU+kCOdyU?FN}]CPGA2j^SYyujqFD8JF}VnA-MxewYmgtOv42Vmocb79(#_JWvYREtCsYP&+W!D@cH#<.q|s#.O@6KZCd]#A|fT:9e6&u+e_UK6ymPVUw$E.k]9m7ymi-XcttX-T4Zw)C9nY0$Rl?{.r{lOzjlS^8f?)X!#A#qPm4j!$)Jk?amS%&pk<6KCNzcX&g]}::6)z>hPi.fwH$e!!!(f6+a6u(i.B)RjFY)8ufEYrNkk6L_mf4znt0(?f-dN5]H}-ofYjQ2!@6?_1OVAmFVA2lWP[GK
+evS6:_l=f[SzJern&wmmtb^-c.N438Po_C5]}WnB.t<}Au9N%G>=1S@7=OwEBRmMtuNR{BfR0&u8l+mL!!-E|&mE4[JC.4W_kIosEPe%7H2-0ZYHude.^+m(T(ZC-LxW=q!@6@av{z$MDB-Blo3W#syCS4-aQRY!jZsim1OFx=P1n^(ttaCSP%aP?)8L)+a_d%N$FTJAVr4:QoxiS8u||M%d$Z6Mu{gNKm%-@T!!kvoMKpFu4nbUQDe9!AG&fd8q>-#ufQ=VtLxXJ_!@6@a6=fb6$isAzB<uPtxK)15mY!%<F[N=tMV7U8vaUNrGfz@C
+aa6<@>|WSL^m_0?fe9G_F#cew%R7W:w5d5+&^IRwOMT:ME=71O<<B+wttIJ1HpUG#l^jY:D7Iwh&zPYyzy$<O!!!16Wh{-={)^#1n2mPa1ANtGgx}zrQBO|qOD2c4X1:0<Bl3(z!!!.859?MAzs]t=cE$bo.iL%x.OEXB:KJZ0<oVNC9eLbE+e_UK6ymPVOP_6rhGK[?8>cO1Bx2EUXEB?.jsp^Ug+IBCdjqo!!!%Nuts#egnOTy|$P%[DavqFJgiJOvSD05}RrQG:cn@pH7iiOMr$LZ!#6FsK>]=!Ia1=VqrbnaT!!-E{a_Dp<m%-B3
+!!kvonNngft3F9X!!HMvts9LFLX5[?!!6fzx)Kl68l+m^!!-E|NTeu-YTE{o!!&5Pev5#V@=b|v!!$+hEMY!k2]pPz!!#%s59@!H)Aw:|!!!SLWh{)7S@>c}!!!=8?F|TZ=2^DQ!!!1.]BmpAOxq%>du8DTwdtS+]T>F#]T1r.tOKN5.43^FxSD>5odxG_p&$unyJFC8J4$94$f^Oq0DBkyyO|?bhfmbGuSLECNMqqOh@fqYDckxTyboMet&G}bJ4[<0!2mlB$z$hmL=lwYkSaMei4q8e=4iXR<K^%>k?<nhOCs]#^mfZA!!!&ZWhzla
+zOfhDWG.N&$Tzr5KPRZuttIHmIcBdnU98m4+rh3a0DBkyyO|?b((c%ci4|JN8>cO1jus:Z3kIvDr9NKjxb+xywwKN{2j8Y4^6Zd<!!!8KEMWu[x+-]FG+sW1k:Ym>$FD1ejS:O88W$DPIh!2VQ4I>v@Tay=!#Wo|#B6YM8{?>K!2Y_CPsp{C$Hgt@zrN)aS^d?a(h]kwBa{m9UkaE}yR.z>ypwck)9VP+Eq[5nlm8}lxbzxSc.o}}P%([QYx<}RLuC<:.E^]8LSG(WvRq@A!!#&<59@0T.t9IGZkAZzl=]iicxRTfNKS]1OyY.oi2Sag
+{-4F_!(9+F$_Jj|-@c03I^pa(.yx)1NEUXR:!Q3v&&QObi9TNL)&eEseC|85!$[%^#BeG}&2pVXx$qXWU)&fOitW5V9jQy<kVMUfyYcAaYG6VmBJYDj!!!.859?MA.t<b1Z4PlnltIUKOY]030uf9y7{VokyqiipsQEa2#-s6m<r!Jp+Z.V)Z(Ro2.qp?veo)QP7a{f|nNPD+IUkHk?mZv5zomaK!!6fxx)Kl68l+m^!!-E|NTeu-YTE{o!!&5Pev5#V@=b|v!!$+hEMY!k2]pPz!!#%s59@!H)Aw:|!!!SLWh{)7S@>c}!!!=8?F|TZ
+v%%M)MkN6AOtz(L@Ahalx)DfB@$KMKEPLypyc@El!!F4Da_GWvF)<Gvp$IQAsR^:c?28o>^oE6(EIEy7lP^sN?IX&{ETc9>=#)8r%qo>pnQU-XAx8Z<EK<(F]rX4n&w}L!&g_aI{%.rhi4q83@H1:F!!#gMw8CUod|8<K00iHHx)MN.@yaeQwb^=^M4z:zts=w=[]#=B!!!rfNTaNLx)[-!4r8r^yYcB-]c_3^tL$hunAB+m6Mbddr6&@H:EXZeSrU%^!!75+nNm@habLizrumOo)72@?b$}PX.O>oiOG3vUSds+KsQK>!#-s6m<r!Jp
+kJNz9rY}1k!!-E{a_Dp<m%-B3!!kvonNngft3F9X!!HMvts9LFLX5[?!!6fzx)Kl68l+m^!!-E|NTeu-YTE{o!!&5Pev5#V@=b|v!!$+hEMY!k2]pPz!!#%s59@!H)Aw:|!!!SLWh{)7S@>c}!!!=8?F|TZ=2^DQ!!!1.]BmpA1)B4hP1n^(lm8}3(Ta+F:WInTHuZ}X$jC%cZK#|>6ymQ?h])m|oF]n=rtvXPwcHceJCyb!!YGjZ${.Y@6Tg+Cv+(h?O:svjhSAsp[!BSr]3#o5)1g_::WInTHuZ}X@cG|6U)P6IKAchQ5gPWH!YGgY
+${.Y@6Tg+CHuE?(f_{r1wr%otnNzF28m377LUQrpYB-Aad<pl8ab#b}c]5n})1g_::WInTHuZ}X0uf-_03qK97I@(N$n!30ZK#|>6ymQ?yQBG-!!kw%nNngfachsq>uT@0w>!20NDIOBfA<4<WHdvn5!6ap)J+Ch!!!$BWhz}9U)w1nx2:kwHtYIG+Oq9o>JGTWfG8)_o0FXJg1uUeE3>_<Jdx9Xcj5fwU%PX2zvdhOMsRi$!!%lZts(.rnOTy|Y)5A0r=$9_%@KE#YfuHLpSt&1khns&9fm02yQ![}vaOCqCgyM_!!#uAI7Fq{bmCnU
+bpGmxU$bU!jE9O%Lah+6xzTC>JpT6V:UvTdhXJByPvCRP$mgtYx+zYbvjOrMl75=o787%RK.zaMxZYIQts3jK763K+w:jsn4|3VYNyGUIts0VSD1Z=Mviy9My%e75!!!0)QFhZ|E:PCwR]wWwV>y&Hts3irkLdMf58|10y9a_T8k4H+#IF3[p0TWTxEF$@x^Re)WinVk!!#(j%_MA$xd_xg[dc8WpJd&szrtZi&LiaDNz4Z^(uyjqGH|pK:URk?r<XK>RZ9Gs#fc&QJ}et#aboC4z]yH-Y}>XVkSj[5mp%>Uq]=rIIrT8uad2tmjhE|)
+vd6Qpeo(sy$f^lx!@6@>d|-+ls=X&z>Lmu+Xt8C|f?BZ[zUWjETi+?8&lO^Sm=ZEluZvZu&h+H%^XRvPH20u-titW?O!0MUY$:MgMT2n)KvZ=?Sxr@x$g4icZK#|>x)a4%pex--LiLV]ts22a!YGZBLbV%WY:=l$MiJp}$FT1nmKX$<@tn#taSxXhqs#Wqnb.]02&AL8P1n^(nOg:1Nj&[>GcnGGts4JJ!YGZBLbV%WpQ3C1(ar:UnNVM+8m377G+^G[P)cv]21wQZH9@:|!2Y]bD}&%uwi+=!C<uWrpaXp8WNT}bN$OJ<c$_aIc%Pu_
+TxI@)t]lS#@AOl<!%2aCn7P[PsG}))7<ssYttBaD4cr1ZgqK7SeGMope&Zmwd-1IZkcT)&LX5[r!!6fzI7N#f@49ZpU)HxMNo1V&_>$Zou{bUvi.#j|.8NZ3OK%?vTgmTlK[)tmNPW=u5W-=6#GaSD@eRP^x)rhwJNt_meu2Hii7LBqwi+31{1a9E3xL%yf0ckKNNq:#JCrcXS@>c}!!!=8g:_o1aN2{n1NpiztzqH.u<:&6oc2B.k5TIIw.M%|$rpgAZK#|>tt-Eo.f)3?v$uSq41wXh9VtVmN0u4$#K.-9LxU_$@=yXmK[9[:7jr4c
+MH&hd0]Wl2TUw)yw|.UB7Jpw4aHUkNWS&s?Pqgn_8{>BR]jlEvw+KSmx-6sl3G!U%NtQV:xbpLh@AOzl!%2aCn7P[PDoxHBmicV6Xts[{usi$(uN]&DPpdy58{>BR]jlEvY?sI6aFz}L#LHoLLxU_$@=yXmPq+4u8{>BR2]{lI_3!G7&g-2Fz6Hs7K26wv+Gjia#5j$u(x95YXfw?euk#6XeCOXCm)M6_RZAl!&2u%($W@+i&zPZ$ym}:-iYm4=jndFxvTU8wq[rs%.HmsJHo)^=n2o0dwJ@j:vY>pM!!C8OZ#ru|81KxKXK_nAk_2@6
+wgYq__GhtpT]-$Nlgr]ywZj3.t4UYV4a$[Fx@v]uDeKNw<k_bzsm}h)iFt7+fA9-M.Ewzct5bx{E$RUxo&R:w_ag0mOlT.:yho(u.3$mAwJms!yb_38c<=Ai9p#Vukg[>esypOR?BXZtJ|!M|d_18=-)B>=x)M]J_L(g[wve##m7j@:{<&[PsR8W#^^-l&52XTzrYQ0)!iL?ruW<+!p.=b1LEc#dB:p<-!.P@:LpiXRefUQ-m5B85z}fxwC4X46u:?B!p+}[{4XE|TC$4xaFTs+](-YGCNDUaq5?OsU6r=_6r:XKJfWI0)vx0HkJu8AE
+4r6V)?f+GxU.X=Gb1i$NOuB}<:NvD^t18$o4iv(Ia_k#Kd+s529fZEXXfvjIqtlHrNp]XF9bcV7D#%o4NDEptA{]jb=:yA@H<85dC)#yL>!4Y7x^)LdDmkk&cgI:MNdDG3CumLgG.A%zuW$LR!!%2e4Zvp%wkK4M3I{JlZBv<Dz_EVO38A!G.r@pe?rMt7rJwOQwL_LT#QIqwluz<s+Ps(y&{Txj&2upCLLW#Bhy?]?ausk4RG7(.u]BpnP1nocF+#I}@EFOzc.fs)tW<eYXB-to8A.a4e?iY(6bX{pXOdJAjhE}F+LrF._>nH|%$[h|
+kH!7Ie#haTxJ7-vtS:SUt&duGk=Xygb6n))NQD(qL1&h<2?a{d!!!02g4$u#ISw6YX0LH>xGR(f8N(qrV3EwAm[.EjdJF>5e|}x]blvFXjJMELH1)cxprgobdh=jSx)GDwDG$io=}z[Vs:G$i_vUK]!!!y_9b:>XN9>qlzO:$]-tSBdMjS^jegOtSjzVA9T]8ob)1QiV.@9f71Q4!KxI}wR$+Qg1Yu[QJ9L=8Arz6x8fD(0{b$hIv%qo>8x+)t_4uX&z]Z:R_5|WuzL<%!Ktt4hq-YNw0.rON=oVoVbdHd)MwUa|e?hJ(=6]aX|&E.M[
+r9MXPW|tJ@Owt>taF_:5!$qvddqAGJ-gxctyr|fe&y00CmqpmWN6G^hy9a_HU1kQ}A9Sy&a>dO#MQOO|U8l^0eDhzqwfg{OvGKu(>%-6WOIQ0RZ0!A4pJ.d}!!-T<+@vhKf7Miu5<+]#xx5fHf.R?[54zfkxUh1XdKeR#pn<J?{&Sl2.Zr)NC5NDbxR:7cvH[Cv9Ij_qM]H.|(i[@KMEzplNoJDSfQQx{M5scplM!kEoLt{_!1n+.t4?D^Lt5K1sFv:XtXmcW]lVWMNU!tFMsi(myCB@6!(I5u]xsdNH20u-_9mnOF$uD<$FB[t5C6NT
+H4LM:!!&=]&@.8[eVmjg4Fg+VEKt<!^R$S0kdR34xUH#tJt}qHx$qleG5R<A:4MrP4XEr&{-fNF!:uDYl4mi|NeSXHLNC]y2q9KyDrPt:s2r+GMnEfXNP^zpvbpL%i9T=Y9eirs+e_UKx)a3APqeKTfRgXUD5$pJx[5{UVJE4SNU!tDE_d7NfPLFy:4:tbm^em-P1n]bg:_fFJxT(Aqo4e@_pNwE<0>qU]ydA&)72@<-AVH7MDt<R.E^]8EdBSUwX@SHh9PRySknAk!!-SxmId5KYCN8b+E%Akz|>]F+LRMi>%yN@ZW3hP8VI4mvqk%m
+U5K=|zN$V97ilDLkwtb+9{mwGmq2vfO$n2-zl_|TpYN7$wuR3i.9A.gzsZVUFg&^pWy#]j=4iXU)>|WE{)QX2hy:JP^(.YVF)<Qqwr<sDe<Bd#n7Zn4!!%2e75Nc1JX(<Y>YspDE%HZ0:&q0?x]%!aKi|KtybRn.ltw|}F{lNdngM:8Y1)b}kd_>G:4IT5WS)f^Tw?xA)+9PkU)Vc0P1n[cF+#YjH<6^Fr.Q%s2VW=nP)_wkNN$RZ]NplNpo^Hdg+Ev1ipOKNoyMU$()wf6YG42$tsY%4gDH+4)e3a!O7<pdb5{QJH6Jmt&i8djaVmM%
+sI6<gh8{td.}dI5L+BjlNTd:YTiJaSKVFy:CI=&SaKffp4uTh2%R:E%_Y8A#v.rw416bJKkVupYzc%C1A6NxaKO:c0kqC&Ytsc79F4-vz(0IuoKN+pEng)^cg(Q=]JMnI=I}Zk}b5xZO]z$]qucO>EK2cRe?J-}eg9C2CkqC&[??8PoqUKoiySiKoBH_1]nuGc.qi)U1v%Ft.FWpgT:Sx>Z2cJ9f!%2a}n7P[P[.h%Zi5T}Xpug{kfa9%h6!D(zgA3oMts0gHYTu4ZzZsN<@=b|x!!$+h#o9j#GKApQx&tLIjc9h4CVj}z9fWiyts22P
+a_CXyd.!^joU>ses-M9[g67RkOxnd=SL^nqGeA6#or4Mci3LKjDpPfy.t<[3rY}6WK}80JyY%^fLuMMX.E^]8DI@f7!#OFCD|k+>e4eQtW2MlDqNYddx5Wi9?a&LvM!6O@Y1)oWgXqT5wf]FqyboMocBML6xF3yf!|YH#<rB]sqe]vLJNqM-i1C1>ng3PDs4Z(hx)nj9c>8|pfG^=BRZ8r=$FCb|sU3##Yqyc4!!!S]$2Uo8.|O_i@B5X9Nwb8@zz?fLcrZn-1Hf_px_>.Y]M<ngEFV-5ELno=qvL>=@cv8atW8lZmj=vpJ!$qN!!#gM
+4Zi<k1Q@|dXKcpOf5:4.n{F%PE0x<XehUakhyFXMt3I)yx+#j_$W@)LKRH{n!!!5y#o:2DH%T]nVKMgNm=[EF)>}o2hWrz-SDc3pypkgmu|wnY)JI6-NdyR?62UUX4ykGp>%N#b{9v8[vHZ8XDU9!]E?[0%Q-jtXG{egr<?Zz^K[9[]k=NahU:NA3EBopcZz)slS7oo:4?k$MF$TLoUb}%@xEF$?r9C0-d.BZuZCPoz!!+Y:nNP+eg8y^(TKv=cl<7L=oq@-]ySmp!JUQIQr7B?.hW1#@C#nSsNGm[6s(Qh#KZY6VlN$fLb5U!9%qo>8
+nQU-7bkokG06.:cLOJcw]jXkQJe13md[MjhU4i>Aw{?X5MC]1V]yB8lWPA#cdU]e=mieQZw(eN>{%2VievDObttJW_4v{uItyBIzawg@8yX_Xf<mK[[R}1w&OSxn4a}RR1aKF^!.sv}?$CB@7=C|XEudbDZe?i&?S>TZg))kCFab?xL0&0g@.|=SIt|fu2!U!Xf14Pl5SxsDUwXKkN!!6g2F$w-X]lVQA!#Woaaa!CKF$p0Tv-%l!O:svjt)+-nB&o80p3&mpc+1nDU(DC3J8.0tYRs|7PW7KZDcS3<Io9>zz9+EB2p<p^U+&S4Iao:l
+sfT2aEVjH_wJms!X[8n_b5^2#NmgqqipOKNSq)M(jZsGbhWCYoEF6|T+#uDw(.ga4dLxEme-s1Y9LEJ1Ww<V6.{]4<r8jYd.8Ke1u|u&wwJmrtX[8nVS#]A%Ozwh)<.@&UG.&PET]G8Al7+ih.y-jb:?ADI6TnV=dVu#rCqa7r9Su.T1V@|&U)28fe!%Fl!!J0#Pr>N!-rhIx[6h%Ie]elpd)5B|bP3R<qtmIXvxp-2{9C&)LBF6=&21|zxZqp0vXeaaQXGOuEQ|lFTUCoW$PTGoP)d4yYv^TYON)oLP0GzG:.Y@oXhH+FXU>_3{)Vg^
+xYWx9U9]GTjUi1byoXMmeC&C1u9.]#:.=m_wc+!3MO]m)pwmX7>%-Pwt}O<%ll#.qt%4awz|#EyQAFJyleh9scPj[<=2wIcSC}J)Fj.)K{7a4#Z@cdw{(PP>O|)eNi)Rw^h|}HtIbK}(zl_|Rb]4xztK>hYa{^5uzo7Jcc_Jp@rowOy0:kk[E6):9zjyUttp%&zNMyeCz[6UH]WthAaUyGXf@x)hyawR4lqa9Wnd&4ALdxN8Rb[0l=>)d?9m9<jjD-DKB:s&=k+A7bzAbo2h])YDdEm^Ip_D^Zc4Qz4bTNeqJbEx-cMy2?fN9?U(G.Ew
+j.U4pwwP!8tcQ!zZ83[rzDTEJNZz:$8H|rg8HN_]-B5_yz+_ks0(?Y$m&CH9IcA$bzOBDe.|d1#Fi#N!#+!B0]6YiP]:BssVlOjIXNGll^wzr?LU)Nqhxg}=?W3>k@VOP}{)Frg^AC>}LTAU>?%NGT[Xn[-]}.0.pU2OgwsgVJlhWEmx&psgobfSFymgr!>+%pxd{NJC6p@BBO{@e4eGsi!aDd-l9gA-&P1nZ$?F|K+kp&-0C%S6?ipNGINje&GzV!e$jqYM1xY^B1m%<zup^P[7zzA<Y{<K]RdcPc^itSGAa15c9MUx?WxrgStTP_V+
+wnf[fCY>!)#wv^.jyKOcB9{y_b!F>0]h9>P8)ZXZkX6X#y>ub.o3R4SzEENzvWDU-.qJ6]t-V7:t.IQjoMsm3z|LsvXr{6)8pAWGfG3WZvT^Rdce(fvz]geM0<uXNU)2G_Eq[5ilm8zk4)FLy+!sln=X2v1uPqo2@:u_u8i]H:Y{c-Jf<xy@_U$n#z(oPQxa)BGY{rkpxjS_!Ukjl82=z2d&9}r85(Pvt{){@>@PY$PW5$KUp?$G98yAV&P1nZ$?F|K+aGAshC%S6=kmt3{X1<90e&s(u7z2K]pU@{pOchMh]Wt)YyvP7GvM<1=vLf>E
+=v<&4S=%!^YC.g%maj&#!0U^R1Pmu6hy-r[OwRD.iW<PncNY(p:RU5Bf>uaHe}EC16Uie>mMN|LdQjXw8OiVlq@<n9baDsKYDN=le!kzQkqC&Q5Blt(rlXv]DRzN3:IbcUR(Hz#P&|^Fm_Z]yI}LE&v$ew#V6UXFfDPMlOqiyFzyg%6z:Khc]?m]oYTJ?@zKs[dYf2UMPH&WX]M>QN+!sfF&}?u>!!F4Da_GWvMLltgOnED)g_2!bNW^-ny=qqXDt.0=oPK{{Ssm60]uqSm{7ZY_LMe1LD+%1=U>^nyC+^<v@7niW0!9w26!H6QD}qrG
+nflXuvhLzp03@V-s)gFS.r%Rw%qo>8X[8n?C>7[ru>tT&wau<@@$oBqe!+t#k#l8RzSEaQa6-W+P+N$Qc^yDM>aDNa_2a7Nrv[qr{&WL2rvdKna?0q)s&hL!soM=dG|$_I_9T_2!!!&Zx)FGxbVGir.#P3Az]eVVwEr{T5:)UuL8WU@NJ1Zhsd<G$mj^6nfP2Szq>+wplSFuzo%Bd1zBZLy?Rtsgh<-Mo^NI]O:JUAdnJiz1YoQub!!!S_EMXz{&auKEXu7I(k5{?JSdJ2m]k^kszX30f3waQ_w$5vbcNDMD76HfhO0dM{pq<j6OpmPh
+6yG>&0<qga$<1NSx{ddsV>y0t6A6Gj73f^<_>)D&o((8=xe(<Hg^DPD!(9+n$_Jj|v?qc_vSf12@5C(.=DqH_8$rq+eg={[pZY|h%h$Jiv6C.zL4l>{:K9w$TzW?0papv9Dwrv_a}hMP9>hN.N|[8a]VbG(eHp6)v[=1dMlW4P5!2I<&LBu?]|?zpC)0$}IEr(Lf?q7OGoa4#J|JI_d!o}@odkI48jtUmN@%%^wxSH9fO}k2UDdgdb1jA-nCqSO@bdYUD]G>:!!Chrg(tPXZyXwe]{qwKxD9mKp-HpSvAWtwoEX+%cLs#Wz9[&az]Rr@
+pKDDac3S7d!!6Kpx)ISL&pH-{D{KoEWLUck?hC}|F{BkRcgGDvbe?$_4t#y%jXWY2z_Y|7hTx.LjSLK7?c+h.!!!CPNTd1^8p?$cLZ-4BKv(itL!O[bL%u+wFhc8lr7s]7hGgo7)<Kh|vdLJ9Pz>WGeQi)QKf)I|yyL6rzw1&TyRFk(pD^rs[ch(L74X(0!U7[C&]}0LUle[uv.<%|_F<)$(i%=?a6pR-_1NZCFl+jxddv4n+^8t^w@{#f]=McU09XU&dcl_:a]MY(5twQ:LR0^s+rh?10DBky=]X7VfZ5rxcpJQ3gX&?s&](HeY.}{p
+3wU(^g&o{r9:dRbd5mF.w{-W$O4Twz?84%=XGY>HX]Kz&pCep+!!!(Dx)FgQbYn3}htCCW6@JJBRe9kY8SyS+wE%dpolyj)c{wNQy.%4vdT+gIa6k!ERj1i&lm)iIXZ4GClv)Rk!#Wv0aa5ZQO!nUuo(+^a(i[-l9}yh1@Bw<9:4rKVdA(_zGwh8gHy:dbT4o#!NZiAF4pTf5fn1f[6{yN-Fm(L^@=j:{MV{&2!!!+{NTd]:2X[<Z?yZ7%WL053=V=4jY:08W0#n.OChN|$rqV+:>-+m[rU5H2zvoEE0r(N4ljA[s..bZm!(Rd#$b${T
+?pi#4:Ibc2E>i@(YEa3A>uFqeH@KVUtF:{gI9(E0T4eeBqb>&_9>GP|]:@6&tROF#Gw]-7>Ic5_e[:?wz)JX@@=1?P)cTd>!!5>@nNY3fD{5}@Z@MURvi=q9bQ#g:m]7eNd[Pqegana3k+n&Ely?:|z2Rb4-f#[USt7?8nF]AEqu_<cg7Nf4JZ--KwIQ%W_#mHi.ts}_DpH$]Laxlh7KVV=u:)b1?Typ3gIiv9IK+pmofZ0#9F6QIz)Lwu3G-Zagh=FCiAhOfrtSD-.||@Ij>]R7F_7[UtRx&<!!55Oa_C%IkVziP?8st^cAQYrxK!T}
+_Q9Fk.dmJ9.nK$1w!=Abx#33WY?]|C4N=FhdF.o[bgw|Os}z<4KMt(|y##?zkK1Pgy@7FlH<JlbEq[:clm8{Dc^J3aG}HMqFzF$X)rnA6U2lp|&3oN_Q}i0B]XCJCU$H#rjTy%Iu_U[YPpQW3k2KIXSnj!zU(jZ{_nb&8nxY1&GvZcr$GzyeQ.JA[H%J}@H2&2IMuzh9vRmL!wKglb6r2+wKRkz4sUr:sze?g7o?N1-C=uT[QXDfcxZ3WW!!AEY$kD5:u0U+>Bhc6<4j#aQwj]0<E?T$Z&]wB]oZVsf:Jyxr>.P:Uc_R5<C!!VjTVLb^
+:S3oki7rYgbhK^!VGV$Z!#4Q$a_X[WAm)x?eqr!u?XBuf@tgzX__Z6$OZ8v(wCh0!{2=<mFqD+3.OE$&9_V6>kXadOCuR0fEq[6TV9n4>.7JD2.piW3Tc+wJh9(Oy$O{Kbvd&=VCX8yCrvu4FN=&I-EdxHiX]b:=!#Y%Qu&|5sN%0UnCU9z5&2ATXD#cT8c+!dg^kWiYLC%mDDd_e:pYI>q^Tr%Qqka5)YM}_m$A}N9evBRxHut(VOIif=!!!4r$LXHx2nz?vbL=2(:S-8kKF_cpZE%Ije8j(^ER+>^r[DS$e+bseh_EbsEjXov)99:W
+R|J4qzz2)pqVJ|2&u@>OSgI3jSzAlD0]qMq.fHe.H+khrHzk$jIPDJQE7-[Kyq#oiw||H%tOw?=49Ma%w6|rj4cBAkaI?pk]wGb8!!!&R5-IFSbqmy9lx!T7$l&oWru0p})|WB#r)J8G?)AUL]ivR%ZK#zuaas-3rt2pqe=df7^.wP_BAWKL!!!29AD&1k!!!1.a_Dp<:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC
+!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1
+R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d
+#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G
+!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz#MZ4G!!!!d#5jC1R2VgC!!$+ha_q@-:WIkl!)@CB>=]e$!!!1.8{@@)G1tZ5!!HMz
+#MZ4G!!!!d#5jC1R2VgC^v7j#m>bum!!#%{==lOb<K^fU!!&[a
+ */
